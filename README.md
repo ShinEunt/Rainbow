@@ -31,8 +31,14 @@ glutMainLoop()	이벤트 루프 시작 (종료 전까지 반복)
 📌 예시 정점 정의 (한 색상 구간)
 
 // 첫 번째 무지개 띠 (빨강 → 주황)
+
 glColor3f(1.0f, 0.0f, 0.0f); glVertex2f(x0, y0); // 좌하단
+
 glColor3f(1.0f, 0.5f, 0.0f); glVertex2f(x1, y0); // 우하단
+
 glColor3f(1.0f, 0.5f, 0.0f); glVertex2f(x1, y1); // 우상단
+
 glColor3f(1.0f, 0.0f, 0.0f); glVertex2f(x0, y1); // 좌상단
+
 이런 식으로 총 7개의 띠를 만들어, 색상이 자연스럽게 이어지는 수평 무지개 그라데이션을 구성합니다.
+
