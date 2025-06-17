@@ -12,13 +12,21 @@
 🧩 주요 코드 설명
 
 glBegin(GL_QUADS)	사각형(4개의 정점) 그리기 시작
+
 glColor3f(r, g, b)	현재 정점에 적용할 색상 지정 (RGB, 0~1 범위)
+
 glVertex2f(x, y)	실제 정점 위치 설정
+
 glEnd()	정점 그리기 종료
+
 glClearColor(...)	배경색 설정
+
 glClear(...)	화면 초기화
+
 glutDisplayFunc(...)	화면을 그릴 함수 지정
+
 glutMainLoop()	이벤트 루프 시작 (종료 전까지 반복)
+
 
 📌 예시 정점 정의 (한 색상 구간)
 
